@@ -22,7 +22,7 @@
 //$userid: user id to access Lazada inventory
 //$api_key: the unique API key provided by Lazada associated with your user id.
 //$url: URL of the API host
-//This function must be call called by PHP script and the PHP must support cURL.
+//This function must be called by PHP script and the PHP must support cURL.
 //The script updates the product price and quantity only.
 //*******************
 function lazada_qty_price_update($sku,$qty,$rprice,$sprice,$userid,$api_key,$url)
